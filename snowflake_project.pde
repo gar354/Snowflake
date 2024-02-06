@@ -35,6 +35,7 @@ void draw() {
   if ((particle.x + particle.radius) > width / 2) {
     // reset snowflake
     particles.clear();
+    saveFrame("images/flake####.tif");
   }
 }
 
